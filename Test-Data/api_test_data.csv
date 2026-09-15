@@ -1,0 +1,6 @@
+case_id,endpoint,method,expected_status
+API-001,/users/1,GET,200
+API-002,/users/9999,GET,404
+API-003,/users,POST,201
+API-004,/users/1,PUT,200
+API-005,/users/1,DELETE,200
